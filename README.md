@@ -25,8 +25,6 @@ USERNAMES LESS THAN 3 CHARACTERS AND GREATER THAN 20 CHARACTERS ARE NOT CHECKED 
 
 This program was written in python 3.9.0
 
-After installing robloxapi the console may alert another package is required. Install it.
-
 # Packages
 
 The program utilizes the robloxapi package by iranathan:
