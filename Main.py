@@ -1,19 +1,17 @@
 #####################################################################
 #                                                                   #
 #  Dew3's Roblox Username Checker                                   # 
-#  v0.1                                                             #
+#  v0.2                                                             #
 #  Utilizes robloxapi by iranathan                                  #
 #                                                                   #
 #####################################################################
 
 import robloxapi, asyncio
 import requests
-import string
 import pathlib
 import colorama
 import os, sys
 import time
-from urllib.request import urlopen as uReq
 from pathlib import Path
 from colorama import *
 
@@ -62,7 +60,7 @@ asyncio.run(check())
 toc = time.perf_counter() #Program timer stop
 available.close()         
 print(Fore.CYAN+"\nChecker finished " + str(numberOfUsernames) + f" usernames in {toc - tic:0.4f} seconds")
-print("Available usernames saved!")
+print("Saved " + str(savedNames) + " usernames saved!")
 print(Fore.RED +"Closing in 5 seconds")
 time.sleep(5)
 sys.exit()
