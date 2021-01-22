@@ -31,6 +31,10 @@ The program utilizes the robloxapi package by iranathan:
 
 pip3 install robloxapi
 
+Also required is asyncio:
+
+pip3 install asyncio
+
 
 # Legal
 
